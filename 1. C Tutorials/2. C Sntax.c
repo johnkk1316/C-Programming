@@ -22,7 +22,12 @@ Notes Code breakdown.
 *Line 5: printf()
         Printf() is a function that is used to output/print to the screen. In or example it will otput "Hello World"
 
-*
+*Note: Every C Statement ends with a semicolon (;)
+
+*Line 6: return 0 ;
+        return 0  ends the main() function.
+
+Note: Do not forget to add the closing curly brackets '}' to actally  end the main function 
 
 
 */
