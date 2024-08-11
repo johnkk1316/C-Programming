@@ -27,5 +27,5 @@ Notes Code breakdown.
 *Line 6: return 0 ;
         return 0  ends the main() function.
 
-Note: Do not forget to add the closing curly brackets '}' to actally  end the main function 
+Note: Do not forget to add the closing curly brackets '}' to actally  end the main function
 */
