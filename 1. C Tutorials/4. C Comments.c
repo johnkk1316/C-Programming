@@ -28,7 +28,5 @@ Multi-line comments
 ----------------------------------------------------------------
     * Multi-line comments start with slash abd asterisk and ends with an asterisk and slash
 
-    Example:
-
 
 */
