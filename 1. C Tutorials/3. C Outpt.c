@@ -74,11 +74,13 @@ What is \n exactly?
 
     * Examples of other escape sequences:
 
-        /t - Creates a horizontal tab
+        /t - Creates a horizontal tab  (basically is like pressing Tab on or keyboard)
 
         \\ - Inserts a backslash character
 
-        /" Inserts a doble quote character
+        /" Inserts a double quotes character
+
+        /' Inserts a single quotes character
 
 
 */
