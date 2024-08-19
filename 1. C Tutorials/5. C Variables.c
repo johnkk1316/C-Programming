@@ -129,8 +129,6 @@ int main(void)
     return 0;
 }
 
-
-
 /*
 ----------------------------------------------------------------
 Print Values Withot Variables
@@ -141,7 +139,6 @@ Print Values Withot Variables
     Example:
 
     #include <stdio.h>
-
     int main(void)
     {
     printf("My Number is: \n%d", 15 );
@@ -153,5 +150,111 @@ Print Values Withot Variables
 
 *  However, it is more sustainable to use variables as they are saved for later and can be re-used whenever.
 
+
+----------------------------------------------------------------
+Change Variable Values
+----------------------------------------------------------------
+
+* If you assign a new value to an existing variable, it will overwrite the previous value:
+
+    Example:
+
+    int myNum = 15; // myNum is 15
+    myNum = 10; // Now myNum is 10
+
+* You can also assign the value of one variable to another:
+
+
+    Example:
+
+    int myNum = 15;
+
+    int myOtherNum = 23;
+
+    // Assisgn the value of myOtherNum (23) to myNum
+    myNum = myOtherNum;
+
+    // myNum is now 23, instead of 15
+    printf("\n%d", myNum);
+
+*   Or copy values to empty variables:
+
+    Example:
+
+    // Create a variable and assign the value 15 to it
+    int myNum = 15;
+
+    // Declare a variable without assigning it a value
+    int myOtherNum;
+
+    // Assign the value of myNum to myOtherNum
+    myOtherNum = myNum;
+
+    // myOtherNum now has 15 as a value
+    printf("%d", myOtherNum);
+
+*
+*
+
+----------------------------------------------------------------
+Add Variables Together
+----------------------------------------------------------------
+
+* To add a variable to another variable, you can use the + operator:
+
+    Example:
+
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
+    printf("%d", sum);
+
+
+----------------------------------------------------------------
+Declare Multiple Variables
+----------------------------------------------------------------
+
+* To declare more than one variable of the same type, use a comma-separated list:
+
+    Example
+        int x = 5, y = 6, z = 50;
+        printf("%d", x + y + z);
+
+
+* You can also assign the same value to multiple variables of the same type:
+
+    Example
+        int x, y, z;
+        x = y = z = 50;
+        printf("%d", x + y + z);
+
+
+----------------------------------------------------------------
+C Variable Names
+----------------------------------------------------------------
+
+* All C variables must be identified with unique names.
+
+* These unique names are called identifiers.
+
+* Identifiers can be short names (like x and y) or more descriptive names (age, sum,  totalVolume).
+
+* Note: It is recommended to use descriptive names in order to create understandable and maintainable code:
+
+    Example
+        // Good variable name
+        int minutesPerHour = 60;
+
+    // OK, but not so easy to understand what m actually is
+    int m = 60;
+
+
+* The general rules for naming variables are:
+
+    * Names can contain letters, digits and underscores
+    * Names must begin with a letter or an underscore (_)
+    * Names are case-sensitive (myVar and myvar are different variables)
+    * Names cannot contain whitespaces or special characters like !, #, %, etc.
+    * Reserved words (such as int) cannot be used as names
 
 */
