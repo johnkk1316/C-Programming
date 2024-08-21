@@ -29,24 +29,24 @@ Basic Data Types
 * In this tutorial, we will focus on the most basic ones:
 
     
-    |DataType | Size          |       Description       	              |  Example.
-    |-------------------------|-------------------------------------------|----------
-    |int	  |  2 or 4 bytes |	 Stores whole numbers, without            |   1      
-    |         |               |  decimals	                              |          
-    |________ _ ______________|___________________________________________|__________
-    |float    |  4 bytes	  |  Stores fractional numbers,               |   1.99   
-    |         |               |  containing one or more decimals.         |          
-    |         |               |  Sufficient for storing 6-7               |          
-    |         |               |  decimal digits                           |          
-    |________ _ ______________|___________________________________________|__________
-    |double	  |  8 bytes	  |  Stores fractional numbers,               |   1.99   
-    |         |               |  containing one or more decimals.         |          
-    |         |               |  Sufficient for storing 15 decimal        |          
-    |         |               |  digits                                   |           
-    |_________|_______________|___________________________________________|__________
-    |char	  |  1 byte	      |  Stores a single character/letter/number, |   'A'    
-    |         |               |  or ASCII values	                      |          
-    |_________|___________________________________________________________|__________
+    |DataType   Size             Description                        Example.
+    |-------------------------- ----------------------------------------------
+    |int	    2 or 4 bytes    Stores whole numbers, without          1      
+    |                           decimals	                                        
+    |__________________________ ______________________________________________
+    |float      4 bytes	        Stores fractional numbers,             1.99   
+    |                           containing one or more decimals.                   
+    |                           Sufficient for storing 6-7                         
+    |                           decimal digits                                     
+    |__________________________ ______________________________________________
+    |double	    8 bytes	        Stores fractional numbers,              1.99   
+    |                           containing one or more decimals.                   
+    |                           Sufficient for storing 15 decimal                  
+    |                           digits                                              
+    |__________________________ ______________________________________________
+    |char	    1 byte	        Stores a single character/letter/
+    |                           number,or ASCII values                  'A'    	                                
+    |__________________________ ______________________________________________
 
 
 
@@ -57,14 +57,14 @@ BasicFormatSpecifiers
 
 * There are different format specifiers for each data type. Here are some of them:
 
-|Format Specifier  |	Data Type	           
-|------------------|---------------------------
-|  %d or %i	       |  int	                   
-|  %f or %F	       |  float	                   
-|  %lf	           |  double	               
-|  %c	           |  char	                   
-|  %s	           |  Used for strings (texts)    
-|______________________________________________
+|Format Specifier   Data Type	           
+|---------------------------------------------
+|  %d or %i	        int	                   
+|  %f or %F	        float	                   
+|  %lf	            double	               
+|  %c	            char	                   
+|  %s	            Used for strings (texts)    
+|
 
 
 */
