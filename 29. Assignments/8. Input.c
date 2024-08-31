@@ -8,7 +8,7 @@ int main()
 
         printf("\nVolume Calclator\n\n");
 
-        // Input the lenth
+        // Input the length
         printf("Lenth:");       
         scanf("%lf", &length);
 
