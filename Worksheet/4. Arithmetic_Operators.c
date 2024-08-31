@@ -39,11 +39,7 @@ int main()
         printf("Division: %.2lf\n\n", z4);
         printf("Modlus: %d\n\n", z5);
         printf("Increment: %d\n\n", f);
-        printf("Decrement: %d\n\n", g);
-        
-        
-        
-        
+        printf("Decrement: %d\n\n", g);     
 
         return 0;
     }
