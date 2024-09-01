@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> // header file that provides functions for mathematical operations like square root, power, and trigonometry.
 
 int main() 
     {
