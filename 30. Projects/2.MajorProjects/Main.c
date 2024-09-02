@@ -1,26 +1,71 @@
 #include <stdio.h>
-#include <math.h>
+
+//int main()
+//    {
+//        char grade;
+//
+//        //input grade
+//        printf("Enter your grade: ");
+//        scanf("%c", &grade);
+//
+//        // IF ELSE statements.
+//        if(grade == 'A'){
+//            printf("Perfect grade");
+//        }
+//        else if(grade == 'B'){
+//            printf("You did good");
+//        }
+//        else if(grade == 'C'){
+//            printf("You did okay");
+//        }
+//        else if(grade == 'D'){
+//            printf("Atleast its not an F");
+//        }
+//        else if(grade == 'F'){
+//            printf("You failed maggot!!");
+//        }
+//        else{
+//            printf("Input valid grade");
+//        }
+//
+//        return 0;
+//
+//    }
 
 int main()
-{
+    {
+        char grade;
 
-    double A;
-    double B;
+        // Input grade.
+        printf("Input grade: ");
+        scanf("%c", &grade);
 
-    // Input Base
-    printf("Enter A:");
-    scanf("%lf", &A);
+        // Switch statement
+        switch(grade){
+            case 'A':
+                printf("Perfect grade");
+            break;
 
-    // Input Height
-    printf("\nEnter B:");
-    scanf("%lf", &B);
+            case 'B':
+                printf("You did good");
+            break;
 
-    // Hypotenuse
-    // double hypotenuse = A*A + B*B;
+            case 'C':
+                printf("You did okay");
+            break;
 
-    double C = sqrt(A * A + B * B);
+            case 'D':
+                printf("Atleast its not an F ");
+            break;
 
-    printf("\nThe Hypotenuse is: %.2lf", C);
+            case 'F':
+                printf("You failed maggot!!");
+            break;
 
-    return 0;
-}
+            default:
+                printf("Input valid grade");
+        }
+
+        return 0;
+    }
+
