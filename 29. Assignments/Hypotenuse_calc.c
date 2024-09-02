@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <math.h>
 
-int main() 
+int main()
     {
-        
+
         double base;
         double height;
 
@@ -15,7 +16,7 @@ int main()
         scanf("%lf", &height);
 
         //Hypotenuse
-        double hypotenuse = base * base + height * height;
+        double hypotenuse = sqrt(base * base + height * height);
 
         printf("\nThe Hypotenuse is: %.2lf", hypotenuse);
 
