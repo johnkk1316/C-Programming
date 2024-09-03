@@ -1,71 +1,28 @@
 #include <stdio.h>
-
-//int main()
-//    {
-//        char grade;
-//
-//        //input grade
-//        printf("Enter your grade: ");
-//        scanf("%c", &grade);
-//
-//        // IF ELSE statements.
-//        if(grade == 'A'){
-//            printf("Perfect grade");
-//        }
-//        else if(grade == 'B'){
-//            printf("You did good");
-//        }
-//        else if(grade == 'C'){
-//            printf("You did okay");
-//        }
-//        else if(grade == 'D'){
-//            printf("Atleast its not an F");
-//        }
-//        else if(grade == 'F'){
-//            printf("You failed maggot!!");
-//        }
-//        else{
-//            printf("Input valid grade");
-//        }
-//
-//        return 0;
-//
-//    }
+#include <string.h>
 
 int main()
     {
-        char grade;
+        char ch;
+        char s[100];
+        char sen[100];
 
-        // Input grade.
-        printf("Input grade: ");
-        scanf("%c", &grade);
+        //input
+        printf("Enter Ch: ");
+        scanf("%c", &ch);
 
-        // Switch statement
-        switch(grade){
-            case 'A':
-                printf("Perfect grade");
-            break;
+        printf("Enter Ch array: ");
+        scanf("%s", &s);
 
-            case 'B':
-                printf("You did good");
-            break;
+        printf("Enter Sen: ");
+        scanf("\n");
+        scanf("%[^\n]%*c", &sen);
 
-            case 'C':
-                printf("You did okay");
-            break;
 
-            case 'D':
-                printf("Atleast its not an F ");
-            break;
-
-            case 'F':
-                printf("You failed maggot!!");
-            break;
-
-            default:
-                printf("Input valid grade");
-        }
+        //print
+        printf("%c\n",ch);
+        printf("%s\n",s);
+        printf("%s\n",sen);
 
         return 0;
     }
-
