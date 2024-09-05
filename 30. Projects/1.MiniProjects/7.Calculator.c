@@ -21,7 +21,6 @@ int main()
         switch(operator){
             case '+':
                 result = number1 + number2;
-                printf("\nresult: %.2lf", result);
             break;
 
             case '-':
@@ -35,8 +34,15 @@ int main()
             break;
 
             case '/':
+                if (number2 != 0){     //checks whether the second number (number2) is not equal to zero. Division by zero is mathematically undefined
                 result = number1 / number2;
                 printf("\nresult: %.2lf", result);
+                }
+
+                else
+                {
+                    printf("Error! Division by 0");
+                }
             break;
 
 
