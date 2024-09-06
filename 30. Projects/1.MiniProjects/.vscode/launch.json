@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/aegisvigil/Desktop/C Programming",
-      "program": "/home/aegisvigil/Desktop/C Programming/build/Debug/outDebug",
+      "cwd": "/home/aegisvigil/Desktop/C Programming/30. Projects/1.MiniProjects",
+      "program": "/home/aegisvigil/Desktop/C Programming/30. Projects/1.MiniProjects/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
